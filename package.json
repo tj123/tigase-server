@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "ins:db":"mvn exec:java -Dfile.encoding=UTF-8 -Dexec.mainClass=\"tigase.util.DBSchemaLoader\"  -Dexec.args=\"-dbHostname 127.0.0.1 -dbType mysql -schemaVersion 7-1 -dbName tigasedb -rootUser root -rootPass 123456 -dbUser root -dbPass 123456 -logLevel ALL -file database/mysql-schema-7-1.sql\""
+    "ins:db":"mvn exec:java -Dfile.encoding=UTF-8 -Dexec.mainClass=\"tigase.util.DBSchemaLoader\"  -Dexec.args=\"-dbHostname 127.0.0.1 -dbType mysql -schemaVersion 7-1 -dbName tigasedb -rootUser root -rootPass 123456 -dbUser tigase -dbPass 123456 -logLevel ALL -file database/mysql-schema-7-1.sql\""
   }
 }
