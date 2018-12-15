@@ -44,11 +44,11 @@ def PASSWORD = "password"
 def PASSWORD_VERIFY = "password-verify"
 def EMAIL = "email"
 
-def p = (Packet)packet
-def auth_repo = (AuthRepository)authRepository
-def user_repo = (UserRepository)userRepository
-def vhost_man = (VHostManagerIfc)vhostMan
-def admins = (Set)adminsSet
+def p = (Packet) packet
+def auth_repo = (AuthRepository) authRepository
+def user_repo = (UserRepository) userRepository
+def vhost_man = (VHostManagerIfc) vhostMan
+def admins = (Set) adminsSet
 def stanzaFromBare = p.getStanzaFrom().getBareJID()
 def isServiceAdmin = admins.contains(stanzaFromBare)
 
@@ -58,43 +58,43 @@ def userPassVer = Command.getFieldValue(packet, PASSWORD_VERIFY)
 def userEmail = Command.getFieldValue(packet, EMAIL)
 
 if (userJid == null || userPass == null || userPassVer == null || userEmail == null) {
-	def result = p.commandResult(Command.DataType.form);
+    def result = p.commandResult(Command.DataType.form);
 
-	Command.addTitle(result, "Adding a User")
-	Command.addInstructions(result, "Fill out this form to add a user.")
+    Command.addTitle(result, "Adding a User")
+    Command.addInstructions(result, "Fill out this form to add a user.")
 
-	Command.addFieldValue(result, "FORM_TYPE", "http://jabber.org/protocol/admin",
-			"hidden")
-	Command.addFieldValue(result, JID, userJid ?: "", "jid-single",
-			"The Jabber ID for the account to be added")
-	Command.addFieldValue(result, PASSWORD, userPass ?: "", "text-private",
-			"The password for this account")
-	Command.addFieldValue(result, PASSWORD_VERIFY, userPassVer ?: "", "text-private",
-			"Retype password")
-	Command.addFieldValue(result, EMAIL, userEmail ?: "", "text-single",
-			"Email address")
+    Command.addFieldValue(result, "FORM_TYPE", "http://jabber.org/protocol/admin",
+            "hidden")
+    Command.addFieldValue(result, JID, userJid ?: "", "jid-single",
+            "The Jabber ID for the account to be added")
+    Command.addFieldValue(result, PASSWORD, userPass ?: "", "text-private",
+            "The password for this account")
+    Command.addFieldValue(result, PASSWORD_VERIFY, userPassVer ?: "", "text-private",
+            "Retype password")
+    Command.addFieldValue(result, EMAIL, userEmail ?: "", "text-single",
+            "Email address")
 
-	return result
+    return result
 }
 
 def result = p.commandResult(Command.DataType.result)
 try {
-	bareJID = BareJID.bareJIDInstance(userJid)
-	VHostItem vhost = vhost_man.getVHostItem(bareJID.getDomain())
-	if (isServiceAdmin ||
-	(vhost != null && (vhost.isOwner(stanzaFromBare.toString()) || vhost.isAdmin(stanzaFromBare.toString())))) {
-		auth_repo.addUser(bareJID, userPass)
-		user_repo.setData(bareJID, "email", userEmail);
-		Command.addTextField(result, "Note", "Operation successful");
-	} else {
-		Command.addTextField(result, "Error", "You do not have enough permissions to create account for this domain.");
-	}
+    bareJID = BareJID.bareJIDInstance(userJid)
+    VHostItem vhost = vhost_man.getVHostItem(bareJID.getDomain())
+    if (isServiceAdmin ||
+            (vhost != null && (vhost.isOwner(stanzaFromBare.toString()) || vhost.isAdmin(stanzaFromBare.toString())))) {
+        auth_repo.addUser(bareJID, userPass)
+        user_repo.setData(bareJID, "email", userEmail);
+        Command.addTextField(result, "Note", "Operation successful");
+    } else {
+        Command.addTextField(result, "Error", "You do not have enough permissions to create account for this domain.");
+    }
 } catch (UserExistsException ex) {
-	ex.printStackTrace();
-	Command.addTextField(result, "Note", "User already exists, can't be added.");
+    ex.printStackTrace();
+    Command.addTextField(result, "Note", "User already exists, can't be added.");
 } catch (TigaseDBException ex) {
-	ex.printStackTrace();
-	Command.addTextField(result, "Note", "Problem accessing database, user not added.");
+    ex.printStackTrace();
+    Command.addTextField(result, "Note", "Problem accessing database, user not added.");
 }
 
 return result
