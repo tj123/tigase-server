@@ -1,4 +1,0 @@
-; $Id: $
-name = Tigase server monitor
-description = Displays Tigase server statistics
-package = Tigase
