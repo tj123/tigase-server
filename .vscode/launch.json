@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Tigase Server",
+      "request": "launch",
+      "mainClass": "tigase.server.XMPPServer",
+      "projectName": "tigase-server"
+    }
+  ]
+}

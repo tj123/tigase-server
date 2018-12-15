@@ -1,6 +1,7 @@
 {
   "scripts": {
     "ins:db":"mvn -pl=tigase-server exec:java -Dfile.encoding=UTF-8 -Dexec.mainClass=\"tigase.util.DBSchemaLoader\"  -Dexec.args=\"-dbHostname 127.0.0.1 -dbType mysql -schemaVersion 7-1 -dbName tigasedb -rootUser root -rootPass 123456 -dbUser tigase -dbPass 123456 -logLevel ALL -file tigase-server/database/mysql-schema-7-1.sql\"",
-    "start":"mvn -pl=tigase-server exec:java -Dexec.mainClass=\"tigase.server.XMPPServer\""
+    "start":"mvn -pl=tigase-server exec:java -Dexec.mainClass=\"tigase.server.XMPPServer\"",
+    "run:web":"npm --prefix=tigase-web run serve"
   }
 }
