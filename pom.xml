@@ -10,12 +10,31 @@
 
   <packaging>pom</packaging>
 
-  <name>Tigase XMPP Server</name>
+  <name>Tigase XMPP Parent</name>
   <description>Tigase XMPP Server Parent</description>
 
   <modules>
+    <!--<module>tigase-muc</module>-->
     <module>tigase-server</module>
   </modules>
+
+  <dependencyManagement>
+    <dependencies>
+
+      <dependency>
+        <groupId>org.kontalk</groupId>
+        <artifactId>tigase-muc</artifactId>
+        <version>2.4.2-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.kontalk</groupId>
+        <artifactId>tigase-server</artifactId>
+        <version>7.1.3</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
 
 
 </project>

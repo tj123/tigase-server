@@ -180,15 +180,12 @@
                   def command = project.properties.script
                   def process = command.execute()
                   process.waitFor()
-
                   version = process.in.text.trim()
                 } catch (Exception e) {
                   version = '0'
                 }
                 println "setting revision to: " + version
-
                 project.properties.setProperty('gitVersion', version)
-
               </source>
             </configuration>
           </execution>

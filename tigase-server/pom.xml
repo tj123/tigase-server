@@ -260,7 +260,7 @@
     </dependency>
 
     <dependency>
-      <groupId>tigase</groupId>
+      <groupId>org.kontalk</groupId>
       <artifactId>tigase-muc</artifactId>
       <version>2.4.2-SNAPSHOT</version>
     </dependency>
