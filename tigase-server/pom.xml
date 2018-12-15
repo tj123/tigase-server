@@ -265,5 +265,11 @@
       <version>2.4.2-SNAPSHOT</version>
     </dependency>
 
+    <dependency>
+      <groupId>tigase</groupId>
+      <artifactId>tigase-message-archiving</artifactId>
+      <version>1.2.3-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 </project>

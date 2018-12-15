@@ -15,6 +15,7 @@
 
   <modules>
     <!--<module>tigase-muc</module>-->
+    <module>tigase-message-archiving</module>
     <module>tigase-server</module>
   </modules>
 
