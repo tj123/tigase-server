@@ -18,7 +18,7 @@
 
   <properties>
     <packaging.type>pom</packaging.type>
-    <dist_path>../../..</dist_path>
+    <!--<dist_path>../../..</dist_path>-->
     <guide_name>Administration</guide_name>
   </properties>
 

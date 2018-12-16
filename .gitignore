@@ -23,7 +23,7 @@ jars/tigase-xmltools.jar
 logs/**
 !logs/server-info.html
 config.txt
-docs
+docs/
 installer
 packages
 src/main/izpack/install_copy.xml
