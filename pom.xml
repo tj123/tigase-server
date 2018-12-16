@@ -79,7 +79,7 @@
         </property>
       </activation>
       <modules>
-        <module>tigase-documentation</module>
+        <module>tigase-server-docs</module>
       </modules>
       <properties>
         <maven.javadoc.skip>false</maven.javadoc.skip>
@@ -95,7 +95,7 @@
         </property>
       </activation>
       <modules>
-        <module>tigase-distribution</module>
+        <module>tigase-server-dist</module>
       </modules>
       <properties>
         <packaging.type>bundle</packaging.type>
