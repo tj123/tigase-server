@@ -1,0 +1,319 @@
+2018-12-15 15:06:44.997 [ResultsListener-socketWriteThread-30]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:06:45.002 [pool-13-thread-20]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Reading network binary data: 719
+2018-12-15 15:06:45.005 [pool-13-thread-20]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], resizing character buffer to: 719
+2018-12-15 15:06:45.005 [pool-13-thread-20]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Decoded character data: POST / HTTP/1.1
+x-forwarded-host: localhost:8080
+x-forwarded-proto: http
+x-forwarded-port: 8080
+x-forwarded-for: 127.0.0.1
+cookie: Hm_lvt_ff100361cdce95dd4c8fb96b4009f7bc=1532840514
+accept-language: zh-CN,zh;q=0.9
+accept-encoding: gzip, deflate, br
+referer: http://localhost:8080/
+accept: */*
+content-type: text/xml; charset=UTF-8
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+origin: http://localhost:8080
+cache-control: no-cache
+pragma: no-cache
+content-length: 111
+connection: close
+host: localhost:5280
+
+<body rid="1096454213" sid="ec2f163b-bc97-4137-a009-90cbcfd73553" xmlns="http://jabber.org/protocol/httpbind"/>
+2018-12-15 15:06:45.006 [pool-13-thread-20]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.002 [ResultsListener-socketWriteThread-30]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:06:45.006 [ResultsListener-socketWriteThread-30]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18791, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], jid: null
+2018-12-15 15:06:45.006 [pool-13-thread-20]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.006 [socketReadThread-47]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@489a2feb
+2018-12-15 15:06:45.006 [socketReadThread-47]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:06:45.006 [socketReadThread-47]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:06:45.006 [pool-13-thread-20]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.006 [pool-13-thread-20]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.006 [ResultsListener-socketWriteThread-28]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.006 [ResultsListener-socketWriteThread-28]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:06:45.006 [ResultsListener-socketWriteThread-28]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18792, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], jid: null
+2018-12-15 15:06:45.006 [socketReadThread-40]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@20f15375
+2018-12-15 15:06:45.006 [socketReadThread-40]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:06:45.006 [socketReadThread-40]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:02.561 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[addr=/127.0.0.1,port=18736,localport=5280], Writing data: 473
+2018-12-15 15:07:02.561 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[addr=/127.0.0.1,port=18736,localport=5280], wrote: 473
+2018-12-15 15:07:02.561 [scheduler_pool-4-thread-2-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18736, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[addr=/127.0.0.1,port=18736,localport=5280], jid: null
+2018-12-15 15:07:02.561 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18313 Socket[unconnected], Force stop called...
+2018-12-15 15:07:02.561 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18313 Socket[unconnected]
+2018-12-15 15:07:02.561 [socketReadThread-32]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@936470c
+2018-12-15 15:07:02.561 [socketReadThread-32]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:02.561 [socketReadThread-32]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.562 [socketReadThread-32]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@936470c
+2018-12-15 15:07:02.563 [socketReadThread-32]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18736, ready for READING, readyOps() = 1
+2018-12-15 15:07:02.563 [socketReadThread-32]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[addr=/127.0.0.1,port=18736,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18736, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], Force stop called...
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:02.563 [pool-13-thread-21]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.563 [ResultsListener-socketWriteThread-29]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18736 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.563 [ResultsListener-socketWriteThread-29]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18736
+2018-12-15 15:07:02.576 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   Selected: 1 from selector: sun.nio.ch.WindowsSelectorImpl@58b28d2
+2018-12-15 15:07:02.576 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   OP_ACCEPT
+2018-12-15 15:07:02.576 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINER:    Registered new client socket: java.nio.channels.SocketChannel[connected local=/127.0.0.1:5280 remote=/127.0.0.1:18857]
+2018-12-15 15:07:02.576 [ConnectionOpenThread]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18857, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], jid: null
+2018-12-15 15:07:02.576 [socketReadThread-29]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@2a79d1cf
+2018-12-15 15:07:02.576 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:02.577 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.577 [socketReadThread-29]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@2a79d1cf
+2018-12-15 15:07:02.577 [socketReadThread-29]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18857, ready for READING, readyOps() = 1
+2018-12-15 15:07:02.577 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Reading network binary data: 590
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], resizing character buffer to: 590
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Decoded character data: POST / HTTP/1.1
+x-forwarded-host: localhost:8080
+x-forwarded-proto: http
+x-forwarded-port: 8080
+x-forwarded-for: 127.0.0.1
+connection: close
+content-length: 111
+content-type: text/xml; charset=utf-8
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate
+accept-language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+accept: */*
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
+host: localhost:5280
+
+<body rid="4171093606" sid="113407e0-82fd-4755-badc-17085236ea8a" xmlns="http://jabber.org/protocol/httpbind"/>
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.577 [pool-13-thread-22]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.578 [ResultsListener-socketWriteThread-27]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.578 [ResultsListener-socketWriteThread-27]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:02.578 [ResultsListener-socketWriteThread-27]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18857, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], jid: null
+2018-12-15 15:07:02.578 [socketReadThread-29]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@2a79d1cf
+2018-12-15 15:07:02.578 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:02.578 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:15.000 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], Writing data: 472
+2018-12-15 15:07:15.000 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], wrote: 472
+2018-12-15 15:07:15.000 [scheduler_pool-4-thread-1-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18791, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], jid: null
+2018-12-15 15:07:15.000 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18340 Socket[unconnected], Force stop called...
+2018-12-15 15:07:15.000 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18340 Socket[unconnected]
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@489a2feb
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@489a2feb
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18791, ready for READING, readyOps() = 1
+2018-12-15 15:07:15.000 [socketReadThread-47]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[addr=/127.0.0.1,port=18791,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18791, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], Force stop called...
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:15.001 [pool-13-thread-23]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.001 [ResultsListener-socketWriteThread-25]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18791 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.001 [ResultsListener-socketWriteThread-25]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18791
+2018-12-15 15:07:15.008 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Writing data: 473
+2018-12-15 15:07:15.008 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], wrote: 473
+2018-12-15 15:07:15.008 [scheduler_pool-4-thread-2-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18792, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], jid: null
+2018-12-15 15:07:15.008 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18341 Socket[unconnected], Force stop called...
+2018-12-15 15:07:15.008 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18341 Socket[unconnected]
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@20f15375
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@20f15375
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18792, ready for READING, readyOps() = 1
+2018-12-15 15:07:15.008 [socketReadThread-40]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[addr=/127.0.0.1,port=18792,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18792, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], Force stop called...
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:15.009 [pool-13-thread-24]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.009 [ResultsListener-socketWriteThread-26]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18792 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.009 [ResultsListener-socketWriteThread-26]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18792
+2018-12-15 15:07:15.995 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   Selected: 1 from selector: sun.nio.ch.WindowsSelectorImpl@58b28d2
+2018-12-15 15:07:15.995 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   OP_ACCEPT
+2018-12-15 15:07:15.995 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINER:    Registered new client socket: java.nio.channels.SocketChannel[connected local=/127.0.0.1:5280 remote=/127.0.0.1:18896]
+2018-12-15 15:07:15.996 [ConnectionOpenThread]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18896, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], jid: null
+2018-12-15 15:07:15.996 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   Selected: 1 from selector: sun.nio.ch.WindowsSelectorImpl@58b28d2
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.run()              FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7b3faaa4
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.996 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   OP_ACCEPT
+2018-12-15 15:07:15.996 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINER:    Registered new client socket: java.nio.channels.SocketChannel[connected local=/127.0.0.1:5280 remote=/127.0.0.1:18897]
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.run()              FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7b3faaa4
+2018-12-15 15:07:15.996 [ConnectionOpenThread]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18897, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], jid: null
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.run()              FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18896, ready for READING, readyOps() = 1
+2018-12-15 15:07:15.996 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   waiting.size(): 0
+2018-12-15 15:07:15.996 [socketReadThread-18]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@3f58c0f3
+2018-12-15 15:07:15.996 [pool-13-thread-25]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.996 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.996 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.996 [pool-13-thread-25]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Reading network binary data: 655
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], resizing character buffer to: 655
+2018-12-15 15:07:15.997 [socketReadThread-18]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@3f58c0f3
+2018-12-15 15:07:15.997 [socketReadThread-18]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18897, ready for READING, readyOps() = 1
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Decoded character data: POST / HTTP/1.1
+x-forwarded-host: localhost:8080
+x-forwarded-proto: http
+x-forwarded-port: 8080
+x-forwarded-for: 127.0.0.1
+accept-language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+accept-encoding: gzip, deflate, br
+referer: http://localhost:8080/
+accept: */*
+content-type: text/xml; charset=UTF-8
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.102
+origin: http://localhost:8080
+content-length: 110
+connection: close
+host: localhost:5280
+
+<body rid="790404244" sid="48fbfd38-3f5d-4dec-b334-fc7f70542798" xmlns="http://jabber.org/protocol/httpbind"/>
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Reading network binary data: 719
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], resizing character buffer to: 719
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Decoded character data: POST / HTTP/1.1
+x-forwarded-host: localhost:8080
+x-forwarded-proto: http
+x-forwarded-port: 8080
+x-forwarded-for: 127.0.0.1
+cookie: Hm_lvt_ff100361cdce95dd4c8fb96b4009f7bc=1532840514
+accept-language: zh-CN,zh;q=0.9
+accept-encoding: gzip, deflate, br
+referer: http://localhost:8080/
+accept: */*
+content-type: text/xml; charset=UTF-8
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+origin: http://localhost:8080
+cache-control: no-cache
+pragma: no-cache
+content-length: 111
+connection: close
+host: localhost:5280
+
+<body rid="1096454214" sid="ec2f163b-bc97-4137-a009-90cbcfd73553" xmlns="http://jabber.org/protocol/httpbind"/>
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [pool-13-thread-26]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [pool-13-thread-25]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-24]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-24]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-24]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18897, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], jid: null
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-23]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-23]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:15.997 [ResultsListener-socketWriteThread-23]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18896, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], jid: null
+2018-12-15 15:07:15.997 [socketReadThread-18]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@3f58c0f3
+2018-12-15 15:07:15.998 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.998 [socketReadThread-0]  SocketThread.run()              FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7b3faaa4
+2018-12-15 15:07:15.998 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:15.998 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   waiting.size(): 1
+2018-12-15 15:07:15.998 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:32.578 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Writing data: 473
+2018-12-15 15:07:32.578 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], wrote: 473
+2018-12-15 15:07:32.578 [scheduler_pool-4-thread-1-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18857, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], jid: null
+2018-12-15 15:07:32.578 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18409 Socket[unconnected], Force stop called...
+2018-12-15 15:07:32.578 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18409 Socket[unconnected]
+2018-12-15 15:07:32.578 [socketReadThread-29]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@2a79d1cf
+2018-12-15 15:07:32.578 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:32.578 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.578 [socketReadThread-29]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@2a79d1cf
+2018-12-15 15:07:32.578 [socketReadThread-29]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18857, ready for READING, readyOps() = 1
+2018-12-15 15:07:32.579 [socketReadThread-29]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[addr=/127.0.0.1,port=18857,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18857, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], Force stop called...
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:32.579 [pool-13-thread-27]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.579 [ResultsListener-socketWriteThread-22]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18857 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.579 [ResultsListener-socketWriteThread-22]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18857
+2018-12-15 15:07:32.596 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   Selected: 1 from selector: sun.nio.ch.WindowsSelectorImpl@58b28d2
+2018-12-15 15:07:32.596 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINEST:   OP_ACCEPT
+2018-12-15 15:07:32.596 [ConnectionOpenThread]  ConnectionOpenThread.run()    FINER:    Registered new client socket: java.nio.channels.SocketChannel[connected local=/127.0.0.1:5280 remote=/127.0.0.1:18948]
+2018-12-15 15:07:32.596 [ConnectionOpenThread]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18948, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], jid: null
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7ad3e6f1
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7ad3e6f1
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18948, ready for READING, readyOps() = 1
+2018-12-15 15:07:32.597 [socketReadThread-36]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Reading network binary data: 590
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], resizing character buffer to: 590
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.readData()             FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Decoded character data: POST / HTTP/1.1
+x-forwarded-host: localhost:8080
+x-forwarded-proto: http
+x-forwarded-port: 8080
+x-forwarded-for: 127.0.0.1
+connection: close
+content-length: 111
+content-type: text/xml; charset=utf-8
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate
+accept-language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+accept: */*
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
+host: localhost:5280
+
+<body rid="4171093607" sid="113407e0-82fd-4755-badc-17085236ea8a" xmlns="http://jabber.org/protocol/httpbind"/>
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [pool-13-thread-28]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [ResultsListener-socketWriteThread-21]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [ResultsListener-socketWriteThread-21]  SocketThread$ResultsListener.run()  FINEST: COMPLETED: 127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:32.597 [ResultsListener-socketWriteThread-21]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18948, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18948 Socket[addr=/127.0.0.1,port=18948,localport=5280], jid: null
+2018-12-15 15:07:32.598 [socketReadThread-36]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7ad3e6f1
+2018-12-15 15:07:32.598 [socketReadThread-36]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:32.598 [socketReadThread-36]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18948
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Writing data: 472
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Writing data: 473
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-1-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], wrote: 472
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-1-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18896, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], jid: null
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-2-bosh]  IOService.writeData()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], wrote: 473
+2018-12-15 15:07:45.997 [socketReadThread-0]  SocketThread.run()              FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7b3faaa4
+2018-12-15 15:07:45.997 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   waiting.size(): 1
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18439 Socket[unconnected], Force stop called...
+2018-12-15 15:07:45.997 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-2-bosh]  SocketThread.addSocketServicePriv()  FINEST: Adding to waiting: bosh@tj/127.0.0.1_5280_127.0.0.1_18897, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], jid: null
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-1-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18439 Socket[unconnected]
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18440 Socket[unconnected], Force stop called...
+2018-12-15 15:07:45.997 [scheduler_pool-4-thread-2-bosh]  IOService.forceStop()  FINER: Service listener is null: bosh@tj/127.0.0.1_5280_127.0.0.1_18440 Socket[unconnected]
+2018-12-15 15:07:45.997 [socketReadThread-18]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@3f58c0f3
+2018-12-15 15:07:45.997 [socketReadThread-0]  SocketThread.run()              FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@7b3faaa4
+2018-12-15 15:07:45.998 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 1
+2018-12-15 15:07:45.998 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   ADDED OP_READ: 127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.998 [socketReadThread-0]  SocketThread.run()              FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18896, ready for READING, readyOps() = 1
+2018-12-15 15:07:45.998 [socketReadThread-0]  SocketThread.addAllWaiting()    FINEST:   waiting.size(): 0
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[addr=/127.0.0.1,port=18896,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [socketReadThread-18]  SocketThread.run()             FINEST:   Selector AWAKE: sun.nio.ch.WindowsSelectorImpl@3f58c0f3
+2018-12-15 15:07:45.998 [socketReadThread-18]  SocketThread.run()             FINEST:   AWAKEN: 127.0.0.1_5280_127.0.0.1_18897, ready for READING, readyOps() = 1
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18896, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], Force stop called...
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:45.998 [socketReadThread-18]  SocketThread.addAllWaiting()   FINEST:   waiting.size(): 0
+2018-12-15 15:07:45.998 [pool-13-thread-29]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[addr=/127.0.0.1,port=18897,localport=5280], Connected: true, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.998 [ResultsListener-socketWriteThread-20]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18896 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [ResultsListener-socketWriteThread-20]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18896
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.call()                 FINEST:   bosh@tj/127.0.0.1_5280_127.0.0.1_18897, type: accept, Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], jid: null, stopping connection due to the fact that it was disconnected, forceStop()
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.forceStop()            FINER:    Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], Force stop called...
+2018-12-15 15:07:45.998 [pool-13-thread-30]  IOService.forceStop()            FINER:    Calling stop on the listener: tigase.server.bosh.BoshConnectionManager@31921151
+2018-12-15 15:07:45.999 [pool-13-thread-30]  IOService.isConnected()          FINEST:   Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.999 [ResultsListener-socketWriteThread-19]  IOService.isConnected()  FINEST: Socket: bosh@tj/127.0.0.1_5280_127.0.0.1_18897 Socket[unconnected], Connected: false, id: bosh@tj/127.0.0.1_5280_127.0.0.1_18897
+2018-12-15 15:07:45.999 [ResultsListener-socketWriteThread-19]  SocketThread$ResultsListener.run()  FINEST: REMOVED: 127.0.0.1_5280_127.0.0.1_18897

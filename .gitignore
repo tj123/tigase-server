@@ -23,7 +23,7 @@ jars/tigase-xmltools.jar
 logs/**
 !logs/server-info.html
 config.txt
-docs
+docs/
 installer
 packages
 src/main/izpack/install_copy.xml
@@ -78,3 +78,23 @@ src/main/groovy/tigase/admin/ListNodes.groovy
 src/main/groovy/tigase/admin/RetrieveItem.groovy
 etc/installation-id
 
+.DS_Store
+node_modules/
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
