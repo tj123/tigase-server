@@ -1,0 +1,48 @@
+
+# 系统 api 测试
+
+# 注意如果使用的是vscode那么cookie是本带上了的
+
+@HOST = http://localhost:8080
+
+
+### 测试接口
+@userId = 搜索阿萨斯阿斯达斯是是的爱上爱上
+@ids1=ssdf
+@ids2=sdddf
+POST {{HOST}}/
+Content-Type: application/x-www-form-urlencoded
+
+userId={{userId}}&ids={{ids1}}&ids={{ids2}}
+
+### 测试session
+
+GET {{HOST}}/session
+
+### 测试提交
+
+POST {{HOST}}/test
+Content-Type: application/x-www-form-urlencoded
+
+id={{$randomInt 20 2888}}&ids=ssss&ids=sdgdg&names=sdfsdgsdgsdg&guid={{$guid}}&timestamp={{$timestamp}}
+
+
+### 上传文件
+
+POST {{HOST}}/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="text"
+
+title
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="1.png"
+Content-Type: image/png
+
+< ./1.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### 下载文件
+
+GET {{HOST}}/file

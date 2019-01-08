@@ -30,8 +30,7 @@ import tigase.xmpp.BareJID;
 /**
  * @author bmalkow
  */
-public interface MucContext
-		extends Context {
+public interface MucContext extends Context {
 
 	/**
 	 * @return

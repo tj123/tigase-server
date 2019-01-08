@@ -68,7 +68,9 @@
   <modules>
     <!--<module>../../</module>-->
     <module>tigase-server</module>
-    <module>tigase-mongodb</module>
+    <!--<module>tigase-muc</module>-->
+    <!--<module>tigase-mongodb</module>-->
+    <module>tigase-admin</module>
   </modules>
 
   <profiles>
